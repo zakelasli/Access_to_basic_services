@@ -1,0 +1,1 @@
+SELECT * FROM united_nations.geographic_location;

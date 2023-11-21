@@ -1,0 +1,11 @@
+SELECT 
+Region,
+Sub_region,
+Max(Pct_managed_drinking_water_services) AS Max_Pct_managed_drinking_water_services,
+Min(Pct_managed_drinking_water_services) AS MIN_Pct_managed_drinking_water_services,
+Avg(Pct_managed_drinking_water_services) AS AVG_Pct_managed_drinking_water_services,
+Count(distinct Country_name) AS Number_of_countries,
+SUM(Est_gdp_in_billions) AS Total_Gdp_per_region
+FROM united_nations.access_to_basic_services
+group by region, Sub_region
+Order by AVG_Pct_managed_drinking_water_services Desc;
