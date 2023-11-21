@@ -18,7 +18,7 @@ Contributions to this repository are highly encouraged and valued. Collaborating
 
 # How to Use
 - Accessing the Dataset
-The dataset is available within this repository under the designated folder [provide the folder/file path]. Instructions on accessing and utilizing the dataset within MySQL or other platforms are detailed in [provide relevant documentation or instructions].
+The dataset is available within this repository under the designated folder md_water_services.sql.
 
 # Analyzing the Data
 Explore and analyze the dataset to extract valuable insights. Utilize statistical methods, visualizations, or machine learning techniques to derive meaningful conclusions about access to basic services among different demographics and regions.
